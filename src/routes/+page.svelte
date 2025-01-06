@@ -5,22 +5,22 @@
 	let scuteCount = 1;
 	let landCount = 0;
 	let landsEntering = 1;
-	let scuteTokenCount = 0;
+	let greenInsectCount = 0;
 
 
 	function calculate(){
 		landCount = landCount += landsEntering
 		if (landCount <6) {
-			scuteTokenCount += scuteCount
+			greenInsectCount += scuteCount
 		}else{
-			scuteCount = scuteCount * (landsEntering+1)
+			scuteCount = (scuteCount) * (landsEntering+1)
 		}
 		landsEntering = 1;
 	}
 
 	function reset(){
 		scuteCount = 1;
-		scuteTokenCount = 0;
+		greenInsectCount = 0;
 		landCount = 0;
 		landsEntering = 1;
 	}
@@ -52,11 +52,12 @@
 	<br/>
 	<Counter bind:count={scuteCount} />
 	<br/>
-	<label for="scute-token-count">Number of Scute Swarm tokens</label>
+	<label for="green-insect-token-count">Number of Green Insect Token</label>
 	<br/>
-	<Counter bind:count={scuteTokenCount} />
+	<Counter bind:count={greenInsectCount} />
 	<br/>
-	<p>Scute Damage: {(scuteCount+scuteTokenCount)*1}</p>
+	<p>Scute Damage: {(scuteCount)*1}</p>
+	<p>Green Insect Damage: {(greenInsectCount)*1}</p>
 
 </section>
 
