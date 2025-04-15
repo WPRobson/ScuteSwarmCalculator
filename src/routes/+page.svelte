@@ -1,7 +1,5 @@
 <script>
 	import Counter from './Counter.svelte';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
-	import scute_swarm from '$lib/images/scute_swarm.jpg';
 	let scuteCount = 1;
 	let landCount = 0;
 	let landsEntering = 1;
