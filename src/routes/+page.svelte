@@ -1,7 +1,7 @@
 <script>
 	import Counter from './Counter.svelte';
 	import Modal from './Modal.svelte'
-	import question_icon from '$lib/question.png'
+	import question_icon from '../question.png'
 	let scuteCount = 1;
 	let landCount = 0;
 	let landsEntering = 1;
