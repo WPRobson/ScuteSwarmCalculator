@@ -1,7 +1,7 @@
 <script>
 	import Counter from './Counter.svelte';
 	import Modal from './Modal.svelte'
-	import question_icon from '../question.png'
+	 import question_icon from '$lib/images/question.png'
 	let scuteCount = 1;
 	let landCount = 0;
 	let landsEntering = 1;
@@ -44,7 +44,7 @@
 	<br/>
 	<div><label for="lands-entering">Lands Entering Simultaneously</label>
 	<span class='icon' onclick={() => (showModal = true)} >
-		<img src={question_icon}/>
+		<enhanced:img src="../lib/images/question.png" alt="Image"/>
 	</span>
 	</div> 
 	<br/>
