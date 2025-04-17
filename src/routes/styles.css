@@ -80,10 +80,25 @@ pre {
 }
 
 input,
-button {
+/* button {
 	font-size: inherit;
 	font-family: inherit;
-}
+} */
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 12px 8px 16px;
+	gap: 8px;
+	height: 40px;
+	width: 128px;
+	border: none;
+	background: #056bfa27;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: inherit;
+  }
 
 button:focus:not(:focus-visible) {
 	outline: none;

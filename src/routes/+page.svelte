@@ -1,9 +1,13 @@
 <script>
 	import Counter from './Counter.svelte';
+	import Modal from './Modal.svelte'
+	import question_icon from '$lib/question.png'
 	let scuteCount = 1;
 	let landCount = 0;
 	let landsEntering = 1;
 	let greenInsectCount = 0;
+
+	let showModal = false;
 
 
 	function calculate(){
@@ -32,19 +36,21 @@
 
 <section>
 	<h1 class="card-name">Scute Swarm Calculator</h1>
-	<h2>Do you not want to do the maths on how many scutes you should have? look no further.</h2>
+	<h2>Don't want to do the maths on how many scutes you should have? look no further.</h2>
 
-	<br/>
-	<input type="button" value="reset" on:click={reset}>
-	<br/>
+
 	<label for="lands">Current Lands</label>
 	 <Counter bind:count={landCount} />
 	<br/>
-	<label for="lands-entering">Lands Entering Simultaneously</label>
+	<div><label for="lands-entering">Lands Entering Simultaneously</label>
+	<span class='icon' onclick={() => (showModal = true)} >
+		<img src={question_icon}/>
+	</span>
+	</div> 
 	<br/>
 	<Counter bind:count={landsEntering} />
 	<br/>
-	<input type="button" id="calculate" value="Calculate" on:click={calculate}>
+	<input type="button"class="button-calculate" id="calculate" value="Calculate" onclick={calculate}>
 	<br/>
 	<label for="scute-count">Number of Scute Swarm</label>
 	<br/>
@@ -54,14 +60,33 @@
 	<br/>
 	<Counter bind:count={greenInsectCount} />
 	<br/>
-	<p>Scute Damage: {(scuteCount)*1}</p>
-	<p>Green Insect Damage: {(greenInsectCount)*1}</p>
+	<p>Scute Damage: {(scuteCount)}</p>
+	<p>Green Insect Damage: {(greenInsectCount)}</p>
+
+	<input type="button" class="button-reset" value="Reset" onclick={reset}>
+
+	{#snippet simultaneousLandExplanation()}
+		<p>Cards with effects like <a href="https://scryfall.com/card/grn/125/circuitous-route">Circuitous Route</a> 
+			cause the lands to enter at the same time. So only the scute swarms currently on the battlefield when the effect is played trigger and create copies for each land coming into play <br/><br/>
+			If you have 2 scutes have 6 lands and play Circuitous Route, both scutes will trigger 2 times and you end with 6 scute swarm and 8 lands.
+		</p>
+	{/snippet}
+	
+
+
+	<Modal bind:showModal>
+		{#snippet header()}
+			<h3>Simultaneous lands entering</h3>
+		{/snippet}
+		
+		{@render simultaneousLandExplanation()}
+
+	</Modal>
 
 </section>
 
 
 <style>
-
 	section {
 		display: flex;
 		flex-direction: column;
@@ -70,13 +95,17 @@
 		flex: 0.6;
 	}
 
-	/* h1.card-name{
-		
-	} */
+	.button-calculate{
+		background: #31da079a;
+	}
+
+	.button-reset{
+		background: #ee1607ab;
+	}
 
 	h1 {
 		width: 100%;
-		margin-left: 1.2em;
+		/* margin-left: 1.2em; */
 	}
 
 	h2 {
@@ -84,21 +113,10 @@
 		font-size: 1em;
 	}
 
-	/* .welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-
-
-	.welcome img {
-		position: absolute;
-		width: 50%;
-		height: 100%;
-		top: 0;
-		display: block;
-	} */
+	.icon img {
+	padding-left: 10px;
+    height: 24px;
+    width: 24px;
+	display:inline-block
+}
 </style>
