@@ -6,5 +6,10 @@ export default defineConfig({
 	plugins: [
 		enhancedImages(),
 		sveltekit()
-	]
+	],
+	resolve:{
+		alias: {
+			"@img": "/src/lib/images",
+		}
+	}
 });
