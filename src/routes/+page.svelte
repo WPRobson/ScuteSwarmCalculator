@@ -85,6 +85,24 @@
 
 </section>
 
+<section>
+<br/>
+<h3>Info</h3>
+<p>This tool helps you determine the correct number of Scute Swarm tokens to create based on the number of lands entering the battlefield + existing Scute Swarm in play.</p>
+<p>This site is designed to be used in conjunction with Magic: The Gathering games. To help players running the card "Scute Swarm" in their decks</p>
+<h3>Usage</h3>
+<p>1. Set the current number of lands you have in play</p>
+<p>2. Set the number of lands entering the battlefield simultaneously</p>
+<p>3. Click Calculate. The number of Scute Swarm and Green Insect tokens will be updated accordingly</p>
+<p>4. If needed, Number of Scute Swarm tokens and insect tokens can be adjusted manually</p>
+<p>5. Click Reset to start over</p>
+<h3>Lands Entering Simultaneously</h3>
+<p>Cards with effects like <a href="https://scryfall.com/card/grn/125/circuitous-route">Circuitous Route</a> 
+	cause the lands to enter at the same time. So only the scute swarms currently on the battlefield when the effect is played trigger and create copies for each land coming into play <br/><br/>
+	If you have 2 scutes have 6 lands and play Circuitous Route, both scutes will trigger 2 times and you end with 6 scute swarm and 8 lands.
+</p>
+</section>
+
 
 <style>
 	section {
@@ -118,5 +136,5 @@
     height: 24px;
     width: 24px;
 	display:inline-block
-}
+	}
 </style>
