@@ -1,6 +1,7 @@
 <script>
 	import Counter from './Counter.svelte';
-	import Modal from './Modal.svelte'
+	import Modal from './Modal.svelte';
+	import { base } from '$app/paths'
 	//  import question_icon from '$lib/images/question.png'
 	let scuteCount = 1;
 	let landCount = 0;
@@ -134,7 +135,7 @@
 
 	<details>
 		<summary>What cards work well with Scute Swarm?</summary>
-		<p>Cards that put multiple lands into play simultaneously are excellent: Cultivate, Kodama's Reach, Circuitous Route, and Boundless Realms. Fetch lands also work great since they trigger landfall twice. Check out our <a href="/guide">Strategy Guide</a> for comprehensive combo information.</p>
+		<p>Cards that put multiple lands into play simultaneously are excellent: Cultivate, Kodama's Reach, Circuitous Route, and Boundless Realms. Fetch lands also work great since they trigger landfall twice. Check out our <a href="{base}/guide">Strategy Guide</a> for comprehensive combo information.</p>
 	</details>
 </section>
 
@@ -142,11 +143,11 @@
 	<h3>Learn More About Scute Swarm</h3>
 	<p>Want to master Scute Swarm strategies and build the ultimate landfall deck? Check out our comprehensive resources:</p>
 	<div class="link-cards">
-		<a href="/guide" class="link-card">
+		<a href="{base}/guide" class="link-card">
 			<h4>📖 Strategy Guide</h4>
 			<p>Learn combos, deck building tips, and advanced play patterns</p>
 		</a>
-		<a href="/about" class="link-card">
+		<a href="{base}/about" class="link-card">
 			<h4>ℹ️ About This Tool</h4>
 			<p>Why we built this calculator and how it helps MTG players</p>
 		</a>

@@ -2,6 +2,7 @@
 	export const prerender = true;
 	import Header from './Header.svelte';
 	import './styles.css';
+	import { base } from '$app/paths';
 	/** @type {{children?: import('svelte').Snippet}} */
 	let { children } = $props();
 </script>
@@ -16,9 +17,9 @@
 	<footer>
 		<div class="footer-content">
 			<div class="footer-links">
-				<a href="/">Calculator</a>
-				<a href="/guide">Strategy Guide</a>
-				<a href="/about">About</a>
+				<a href="{base}/">Calculator</a>
+				<a href="{base}/guide">Strategy Guide</a>
+				<a href="{base}/about">About</a>
 			</div>
 			<p class="disclaimer">
 				Scute Swarm Calculator is an unofficial fan tool. Magic: The Gathering is a trademark of Wizards of the Coast LLC.

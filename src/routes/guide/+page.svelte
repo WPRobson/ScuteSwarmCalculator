@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -208,7 +209,7 @@
 	<section class="cta">
 		<h2>Ready to Calculate?</h2>
 		<p>
-			Now that you understand Scute Swarm strategy, use our <a href="/">Scute Swarm Calculator</a> to track your 
+			Now that you understand Scute Swarm strategy, use our <a href="{base}/">Scute Swarm Calculator</a> to track your 
 			tokens during your next game!
 		</p>
 	</section>
