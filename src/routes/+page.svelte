@@ -30,8 +30,9 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Scute Swarm Calculator" />
+	<title>Scute Swarm Calculator - MTG Token Counter Tool</title>
+	<meta name="description" content="Free Scute Swarm Calculator for Magic: The Gathering. Accurately track your Scute Swarm tokens and Green Insect tokens during landfall triggers. Essential tool for MTG Commander and Standard players." />
+	<meta name="keywords" content="Scute Swarm, MTG, Magic The Gathering, token calculator, landfall, Commander, EDH, Zendikar Rising" />
 </svelte:head>
 
 <section>
@@ -103,6 +104,55 @@
 </p>
 </section>
 
+<section class="faq-section">
+	<h3>Frequently Asked Questions</h3>
+	
+	<details>
+		<summary>What is Scute Swarm?</summary>
+		<p>Scute Swarm is a creature card from Magic: The Gathering's Zendikar Rising set. It's a 1/1 green Insect with a landfall ability that creates tokens whenever a land enters the battlefield under your control. Below 6 lands, it creates 1/1 Insect tokens. At 6+ lands, it creates copies of itself, leading to exponential growth.</p>
+	</details>
+
+	<details>
+		<summary>Why do I need a calculator for Scute Swarm?</summary>
+		<p>Once you have 6 or more lands, each land causes every Scute Swarm to copy itself. This exponential growth can quickly result in hundreds or thousands of tokens, making manual counting impractical and error-prone during gameplay.</p>
+	</details>
+
+	<details>
+		<summary>How does the landfall trigger work?</summary>
+		<p>Landfall triggers whenever a land enters the battlefield under your control. If you have multiple Scute Swarms, each one triggers separately. If multiple lands enter simultaneously (like with Cultivate), each Scute Swarm triggers once for each land, using the number of Scutes present when the ability resolves.</p>
+	</details>
+
+	<details>
+		<summary>What's the difference between Scute Swarm tokens and Green Insect tokens?</summary>
+		<p>Before you reach 6 lands, Scute Swarm creates generic 1/1 green Insect creature tokens. At 6+ lands, it creates token copies of Scute Swarm itself, which also have the landfall ability and will continue to multiply with future land drops.</p>
+	</details>
+
+	<details>
+		<summary>Can I use this calculator during tournament play?</summary>
+		<p>Yes! Using external tools to track game state (like token counts) is generally allowed in Magic tournaments. However, always check with the head judge if you're unsure. The calculator helps ensure accurate counts, which benefits both players.</p>
+	</details>
+
+	<details>
+		<summary>What cards work well with Scute Swarm?</summary>
+		<p>Cards that put multiple lands into play simultaneously are excellent: Cultivate, Kodama's Reach, Circuitous Route, and Boundless Realms. Fetch lands also work great since they trigger landfall twice. Check out our <a href="/guide">Strategy Guide</a> for comprehensive combo information.</p>
+	</details>
+</section>
+
+<section class="learn-more">
+	<h3>Learn More About Scute Swarm</h3>
+	<p>Want to master Scute Swarm strategies and build the ultimate landfall deck? Check out our comprehensive resources:</p>
+	<div class="link-cards">
+		<a href="/guide" class="link-card">
+			<h4>📖 Strategy Guide</h4>
+			<p>Learn combos, deck building tips, and advanced play patterns</p>
+		</a>
+		<a href="/about" class="link-card">
+			<h4>ℹ️ About This Tool</h4>
+			<p>Why we built this calculator and how it helps MTG players</p>
+		</a>
+	</div>
+</section>
+
 
 <style>
 	section {
@@ -136,5 +186,117 @@
     height: 24px;
     width: 24px;
 	display:inline-block
+	}
+
+	/* FAQ Section Styles */
+	.faq-section {
+		max-width: 700px;
+		margin: 2rem auto;
+		padding: 1rem;
+	}
+
+	.faq-section h3 {
+		text-align: center;
+		color: #2e7d32;
+		margin-bottom: 1.5rem;
+	}
+
+	details {
+		background: #f5f5f5;
+		border-radius: 8px;
+		margin-bottom: 0.75rem;
+		padding: 0;
+		border: 1px solid #e0e0e0;
+	}
+
+	summary {
+		padding: 1rem 1.25rem;
+		cursor: pointer;
+		font-weight: 600;
+		color: #333;
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	summary::-webkit-details-marker {
+		display: none;
+	}
+
+	summary::after {
+		content: '+';
+		font-size: 1.25rem;
+		color: #4caf50;
+	}
+
+	details[open] summary::after {
+		content: '−';
+	}
+
+	details p {
+		padding: 0 1.25rem 1rem;
+		margin: 0;
+		color: #555;
+		line-height: 1.6;
+	}
+
+	details a {
+		color: #1976d2;
+	}
+
+	/* Learn More Section */
+	.learn-more {
+		max-width: 700px;
+		margin: 2rem auto;
+		padding: 2rem 1rem;
+		text-align: center;
+	}
+
+	.learn-more h3 {
+		color: #2e7d32;
+		margin-bottom: 1rem;
+	}
+
+	.learn-more > p {
+		color: #555;
+		margin-bottom: 1.5rem;
+	}
+
+	.link-cards {
+		display: flex;
+		gap: 1rem;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.link-card {
+		background: #e8f5e9;
+		border: 2px solid #81c784;
+		border-radius: 12px;
+		padding: 1.5rem;
+		text-decoration: none;
+		color: inherit;
+		flex: 1;
+		min-width: 200px;
+		max-width: 280px;
+		transition: transform 0.2s, box-shadow 0.2s;
+	}
+
+	.link-card:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+	}
+
+	.link-card h4 {
+		color: #2e7d32;
+		margin: 0 0 0.5rem 0;
+		font-size: 1.1rem;
+	}
+
+	.link-card p {
+		margin: 0;
+		color: #555;
+		font-size: 0.9rem;
 	}
 </style>
