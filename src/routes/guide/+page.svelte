@@ -59,26 +59,26 @@
 		<h3>Ramp Spells That Put Multiple Lands Into Play</h3>
 		<p>These cards trigger Scute Swarm multiple times at once:</p>
 		<ul>
-			<li><strong><a href="https://scryfall.com/card/grn/125/circuitous-route" target="_blank" rel="noopener">Circuitous Route</a></strong> - 2 lands at once</li>
-			<li><strong><a href="https://scryfall.com/card/cmr/243/kodamas-reach" target="_blank" rel="noopener">Kodama's Reach</a></strong> - 1 to battlefield, 1 to hand</li>
-			<li><strong><a href="https://scryfall.com/card/c21/206/cultivate" target="_blank" rel="noopener">Cultivate</a></strong> - Same as Kodama's Reach</li>
-			<li><strong><a href="https://scryfall.com/card/uma/152/boundless-realms" target="_blank" rel="noopener">Boundless Realms</a></strong> - Doubles your basics (game-ending with Scute)</li>
+			<li><strong><a href="https://scryfall.com/card/fdn/635/circuitous-route" target="_blank" rel="noopener">Circuitous Route</a></strong> - 2 lands at once</li>
+			<li><strong><a href="https://scryfall.com/card/ecc/113/kodamas-reach" target="_blank" rel="noopener">Kodama's Reach</a></strong> - 1 to battlefield, 1 to hand</li>
+			<li><strong><a href="https://scryfall.com/card/soc/265/cultivate" target="_blank" rel="noopener">Cultivate</a></strong> - Same as Kodama's Reach</li>
+			<li><strong><a href="https://scryfall.com/card/m13/162/boundless-realms" target="_blank" rel="noopener">Boundless Realms</a></strong> - Doubles your basics (game-ending with Scute)</li>
 			<li><strong><a href="https://scryfall.com/card/znr/185/ashaya-soul-of-the-wild" target="_blank" rel="noopener">Ashaya, Soul of the Wild</a></strong> - Makes all your creatures into lands too!</li>
 		</ul>
 
 		<h3>Protection and Recursion</h3>
 		<ul>
-			<li><strong><a href="https://scryfall.com/card/2xm/164/heroic-intervention" target="_blank" rel="noopener">Heroic Intervention</a></strong> - Protects from board wipes</li>
-			<li><strong><a href="https://scryfall.com/card/cmr/250/eternal-witness" target="_blank" rel="noopener">Eternal Witness</a></strong> - Get back destroyed Scutes</li>
-			<li><strong><a href="https://scryfall.com/card/c20/199/genesis" target="_blank" rel="noopener">Genesis</a></strong> - Recurring creature retrieval</li>
+			<li><strong><a href="https://scryfall.com/card/cmm/295/heroic-intervention" target="_blank" rel="noopener">Heroic Intervention</a></strong> - Protects from board wipes</li>
+			<li><strong><a href="https://scryfall.com/card/cmm/286/eternal-witness" target="_blank" rel="noopener">Eternal Witness</a></strong> - Get back destroyed Scutes</li>
+			<li><strong><a href="https://scryfall.com/card/mh1/166/genesis" target="_blank" rel="noopener">Genesis</a></strong> - Recurring creature retrieval</li>
 		</ul>
 
 		<h3>Payoffs for Having Many Creatures</h3>
 		<ul>
-			<li><strong><a href="https://scryfall.com/card/ima/183/overwhelming-stampede" target="_blank" rel="noopener">Overwhelming Stampede</a></strong> - Turn tokens into a lethal force</li>
-			<li><strong><a href="https://scryfall.com/card/c21/204/beastmaster-ascension" target="_blank" rel="noopener">Beastmaster Ascension</a></strong> - +5/+5 to all creatures</li>
-			<li><strong><a href="https://scryfall.com/card/mh1/164/craterhoof-behemoth" target="_blank" rel="noopener">Craterhoof Behemoth</a></strong> - The classic finisher</li>
-			<li><strong><a href="https://scryfall.com/card/khm/179/esika-god-of-the-tree" target="_blank" rel="noopener">The World Tree</a></strong> - Mana fixing with creature lands</li>
+			<li><strong><a href="https://scryfall.com/card/dsc/192/overwhelming-stampede" target="_blank" rel="noopener">Overwhelming Stampede</a></strong> - Turn tokens into a lethal force</li>
+			<li><strong><a href="https://scryfall.com/card/ncc/283/beastmaster-ascension" target="_blank" rel="noopener">Beastmaster Ascension</a></strong> - +5/+5 to all creatures</li>
+			<li><strong><a href="https://scryfall.com/card/tdm/138/craterhoof-behemoth" target="_blank" rel="noopener">Craterhoof Behemoth</a></strong> - The classic finisher</li>
+			<li><strong><a href="https://scryfall.com/card/mom/211/tribute-to-the-world-tree" target="_blank" rel="noopener">Tribute to the World Tree</a></strong> - Mana fixing with creature lands</li>
 		</ul>
 
 		<h3>The Ashaya Combo</h3>
@@ -107,7 +107,7 @@
 		<ul>
 			<li>Run 36-40 lands in Commander (higher than average)</li>
 			<li>Include fetch lands to trigger landfall multiple times per turn</li>
-			<li>Consider land recursion like <a href="https://scryfall.com/card/mh1/176/ramunap-excavator" target="_blank" rel="noopener">Ramunap Excavator</a></li>
+			<li>Consider land recursion like <a href="https://scryfall.com/card/otc/202/ramunap-excavator" target="_blank" rel="noopener">Ramunap Excavator</a></li>
 			<li>Use MDFCs (Modal Double-Faced Cards) that are lands on one side</li>
 		</ul>
 
@@ -122,10 +122,10 @@
 
 		<h3>Sample Commander Pairings</h3>
 		<ul>
-			<li><strong><a href="https://scryfall.com/card/znr/231/omnath-locus-of-creation" target="_blank" rel="noopener">Omnath, Locus of Creation</a></strong> - 4-color landfall powerhouse</li>
-			<li><strong><a href="https://scryfall.com/card/cmr/278/kodama-of-the-east-tree" target="_blank" rel="noopener">Kodama of the East Tree</a></strong> - Put additional permanents into play</li>
-			<li><strong><a href="https://scryfall.com/card/znr/201/phylath-world-sculptor" target="_blank" rel="noopener">Phylath, World Sculptor</a></strong> - More token synergy</li>
-			<li><strong><a href="https://scryfall.com/card/bfz/217/omnath-locus-of-rage" target="_blank" rel="noopener">Omnath, Locus of Rage</a></strong> - Elemental token synergy</li>
+			<li><strong><a href="https://scryfall.com/card/znr/232/omnath-locus-of-creation" target="_blank" rel="noopener">Omnath, Locus of Creation</a></strong> - 4-color landfall powerhouse</li>
+			<li><strong><a href="https://scryfall.com/card/cmr/239/kodama-of-the-east-tree" target="_blank" rel="noopener">Kodama of the East Tree</a></strong> - Put additional permanents into play</li>
+			<li><strong><a href="https://scryfall.com/card/znr/234/phylath-world-sculptor" target="_blank" rel="noopener">Phylath, World Sculptor</a></strong> - More token synergy</li>
+			<li><strong><a href="https://scryfall.com/card/ecc/129/omnath-locus-of-rage" target="_blank" rel="noopener">Omnath, Locus of Rage</a></strong> - Elemental token synergy</li>
 		</ul>
 	</section>
 
@@ -177,10 +177,10 @@
 
 		<h3>Effective Counter Cards</h3>
 		<ul>
-			<li><strong><a href="https://scryfall.com/card/c21/126/massacre-wurm" target="_blank" rel="noopener">Massacre Wurm</a></strong> - Kills tokens and drains life</li>
-			<li><strong><a href="https://scryfall.com/card/mid/112/rotten-reunion" target="_blank" rel="noopener">Virulent Plague</a></strong> - Kills all 1/1 tokens on entry</li>
-			<li><strong><a href="https://scryfall.com/card/cmr/387/rakdos-charm" target="_blank" rel="noopener">Rakdos Charm</a></strong> - Deals damage equal to creatures controlled</li>
-			<li><strong><a href="https://scryfall.com/card/khm/4/doomskar" target="_blank" rel="noopener">Doomskar</a></strong> - Board wipe that can be foretold</li>
+			<li><strong><a href="https://scryfall.com/card/fdn/754/massacre-wurm" target="_blank" rel="noopener">Massacre Wurm</a></strong> - Kills tokens and drains life</li>
+			<li><strong><a href="https://scryfall.com/card/dtk/125/virulent-plague" target="_blank" rel="noopener">Virulent Plague</a></strong> - Kills all 1/1 tokens on entry</li>
+			<li><strong><a href="https://scryfall.com/card/eoc/125/rakdos-charm" target="_blank" rel="noopener">Rakdos Charm</a></strong> - Deals damage equal to creatures controlled</li>
+			<li><strong><a href="https://scryfall.com/card/khm/9/doomskar" target="_blank" rel="noopener">Doomskar</a></strong> - Board wipe that can be foretold</li>
 		</ul>
 	</section>
 

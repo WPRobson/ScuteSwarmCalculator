@@ -20,6 +20,7 @@
 				<a href="{base}/">Calculator</a>
 				<a href="{base}/guide">Strategy Guide</a>
 				<a href="{base}/about">About</a>
+				<a href="{base}/privacy">Privacy</a>
 			</div>
 			<p class="disclaimer">
 				Scute Swarm Calculator is an unofficial fan tool. Magic: The Gathering is a trademark of Wizards of the Coast LLC.

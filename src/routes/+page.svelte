@@ -46,7 +46,7 @@
 	<br/>
 	<div><label for="lands-entering">Lands Entering Simultaneously</label>
 	<span class='icon' onclick={() => (showModal = true)} >
-		<enhanced:img src="../../static/question.png" alt="Image"/>
+		<img src="{base}/question.png" alt="Info" />
 	</span>
 	</div> 
 	<br/>
