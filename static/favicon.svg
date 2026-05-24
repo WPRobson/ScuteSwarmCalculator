@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Dark forest background -->
+  <rect width="32" height="32" rx="3" fill="#0d1a0d"/>
+
+  <!-- Outer carapace -->
+  <ellipse cx="16" cy="18" rx="10" ry="8" fill="#144d14"/>
+
+  <!-- Inner carapace / shell highlight -->
+  <ellipse cx="16" cy="16.5" rx="7.5" ry="5.5" fill="#1f7a1f"/>
+
+  <!-- Top shell shine -->
+  <ellipse cx="14" cy="13.5" rx="3.2" ry="1.8" fill="#3aaa3a" opacity="0.45"/>
+
+  <!-- Dorsal spikes -->
+  <polygon points="16,4 14.2,9.5 17.8,9.5" fill="#2e9e2e"/>
+  <polygon points="10.5,7.5 7.5,5.5 9,11" fill="#2e9e2e"/>
+  <polygon points="21.5,7.5 24.5,5.5 23,11" fill="#2e9e2e"/>
+  <polygon points="6.5,13 3,11 5.5,16.5" fill="#1f7a1f"/>
+  <polygon points="25.5,13 29,11 26.5,16.5" fill="#1f7a1f"/>
+
+  <!-- Glowing red-orange eyes -->
+  <circle cx="12.2" cy="17" r="2.4" fill="#8b0000"/>
+  <circle cx="19.8" cy="17" r="2.4" fill="#8b0000"/>
+  <circle cx="12.2" cy="17" r="1.5" fill="#dd2200"/>
+  <circle cx="19.8" cy="17" r="1.5" fill="#dd2200"/>
+  <circle cx="11.7" cy="16.4" r="0.55" fill="#ff9977" opacity="0.85"/>
+  <circle cx="19.3" cy="16.4" r="0.55" fill="#ff9977" opacity="0.85"/>
+
+  <!-- Mandibles / claws -->
+  <path d="M12.5,21.5 Q10,25.5 7.5,27" stroke="#166616" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <path d="M19.5,21.5 Q22,25.5 24.5,27" stroke="#166616" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+  <!-- Front leg pairs -->
+  <line x1="8.5" y1="15.5" x2="2.5" y2="13"  stroke="#166616" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="8.5" y1="19"   x2="2.5" y2="20.5" stroke="#166616" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="23.5" y1="15.5" x2="29.5" y2="13"  stroke="#166616" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="23.5" y1="19"   x2="29.5" y2="20.5" stroke="#166616" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- Subtle green rim glow -->
+  <ellipse cx="16" cy="17" rx="10.5" ry="8.5" fill="none" stroke="#44dd44" stroke-width="0.6" opacity="0.2"/>
+</svg>
