@@ -5,6 +5,7 @@
 <svelte:head>
 	<title>Scute Swarm Strategy Guide - Tips & Combos for MTG</title>
 	<meta name="description" content="Master Scute Swarm with our comprehensive strategy guide. Learn the best combos, deck building tips, and how to maximize your landfall triggers in Magic: The Gathering." />
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4072443652630199" crossorigin="anonymous"></script>
 </svelte:head>
 
 <article>

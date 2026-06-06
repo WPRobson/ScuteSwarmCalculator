@@ -34,6 +34,7 @@
 	<title>Scute Swarm Calculator - MTG Token Counter Tool</title>
 	<meta name="description" content="Free Scute Swarm Calculator for Magic: The Gathering. Accurately track your Scute Swarm tokens and Green Insect tokens during landfall triggers. Essential tool for MTG Commander and Standard players." />
 	<meta name="keywords" content="Scute Swarm, MTG, Magic The Gathering, token calculator, landfall, Commander, EDH, Zendikar Rising" />
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4072443652630199" crossorigin="anonymous"></script>
 </svelte:head>
 
 <section>
